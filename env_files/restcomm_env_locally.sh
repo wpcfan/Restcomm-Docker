@@ -9,10 +9,10 @@ echo -e "restcomm_trace" > /etc/container_environment/RESTCOMM_TRACE_LOG
 echo -e "media_server" > /etc/container_environment/MEDIASERVER_LOGS_LOCATION
 
 #SSL certificate
-echo -e "SELF" > /etc/container_environment/SECURESSL
+echo -e "AUTH" > /etc/container_environment/SECURESSL
 echo -e "allowall" > /etc/container_environment/SSL_MODE
-echo -e "changeme" > /etc/container_environment/TRUSTSTORE_PASSWORD
-echo -e "restcomm" > /etc/container_environment/TRUSTSTORE_ALIAS
+echo -e "X*bcYp4x" > /etc/container_environment/TRUSTSTORE_PASSWORD
+echo -e "tomcat" > /etc/container_environment/TRUSTSTORE_ALIAS
 
 
 #Functional configuration.
@@ -28,7 +28,7 @@ echo -e "DEBUG" > /etc/container_environment/LOG_LEVEL
 echo -e "''" > /etc/container_environment/SMS_PREFIX
 
 #TTS - this is a free acount KEY - please create your personal key (http://www.voicerss.org/)
-echo -e "f4840af6675b4d20a8d96dea8466296b" > /etc/container_environment/VOICERSS_KEY
+echo -e "92d8c8c51bd047c884ae827cb6eb5bf5" > /etc/container_environment/VOICERSS_KEY
 
 #RVD_LOCATION
 echo -e "/var/restcomm/rvd/workspace" > /etc/container_environment/RVD_LOCATION
