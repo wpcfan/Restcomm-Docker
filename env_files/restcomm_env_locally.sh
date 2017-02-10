@@ -12,7 +12,7 @@ echo -e "media_server" > /etc/container_environment/MEDIASERVER_LOGS_LOCATION
 echo -e "AUTH" > /etc/container_environment/SECURESSL
 echo -e "allowall" > /etc/container_environment/SSL_MODE
 echo -e "Wp770521" > /etc/container_environment/TRUSTSTORE_PASSWORD
-#echo -e "tomcat" > /etc/container_environment/TRUSTSTORE_ALIAS
+echo -e "restcomm" > /etc/container_environment/TRUSTSTORE_ALIAS
 echo -e "restcomm-combined.jks" /etc/container_environment/TRUSTSTORE_FILE
 
 
