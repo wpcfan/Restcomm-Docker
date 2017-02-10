@@ -13,6 +13,8 @@ echo -e "AUTH" > /etc/container_environment/SECURESSL
 echo -e "allowall" > /etc/container_environment/SSL_MODE
 echo -e "X*bcYp4x" > /etc/container_environment/TRUSTSTORE_PASSWORD
 echo -e "tomcat" > /etc/container_environment/TRUSTSTORE_ALIAS
+echo -e "tomcat" > /etc/container_environment/CERTCONFURL
+echo -e "iwenda.me.jks" /etc/container_environment/TRUSTSTORE_FILE
 
 
 #Functional configuration.
