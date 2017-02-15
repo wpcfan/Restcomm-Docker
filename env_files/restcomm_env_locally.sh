@@ -8,18 +8,11 @@ echo -e "restcomm_trace" > /etc/container_environment/EXTCONF_RESTCOMM_TRACE_LOG
 echo -e "media_server" > /etc/container_environment/EXTCONF_MEDIASERVER_LOGS_LOCATION
 
 #SSL certificate
-<<<<<<< HEAD
-echo -e "AUTH" > /etc/container_environment/SECURESSL
-echo -e "allowall" > /etc/container_environment/SSL_MODE
-echo -e "Wp770521" > /etc/container_environment/TRUSTSTORE_PASSWORD
-echo -e "restcomm" > /etc/container_environment/TRUSTSTORE_ALIAS
-echo -e "restcomm-combined.jks" /etc/container_environment/TRUSTSTORE_FILE
-
-=======
-echo -e "SELF" > /etc/container_environment/RCADVCONF_SECURESSL
+echo -e "AUTH" > /etc/container_environment/RCADVCONF_SECURESSL
 echo -e "allowall" > /etc/container_environment/RCADVCONF_SSL_MODE
-echo -e "changeme" > /etc/container_environment/RCADVCONF_TRUSTSTORE_PASSWORD
+echo -e "Wp770521" > /etc/container_environment/RCADVCONF_TRUSTSTORE_PASSWORD
 echo -e "restcomm" > /etc/container_environment/RCADVCONF_TRUSTSTORE_ALIAS
+echo -e "restcomm-combined.jks" /etc/container_environment/RCADVCONF_TRUSTSTORE_FILE
 
 #RestComm Port configuration
 echo -e "5080" > /etc/container_environment/RCBCONF_SIP_PORT_UDP
@@ -27,7 +20,6 @@ echo -e "5080" > /etc/container_environment/RCBCONF_SIP_PORT_TCP
 echo -e "5081" > /etc/container_environment/RCBCONF_SIP_PORT_TLS
 echo -e "5082" > /etc/container_environment/RCBCONF_SIP_PORT_WS
 echo -e "5083" > /etc/container_environment/RCBCONF_SIP_PORT_WSS
->>>>>>> RestComm/master
 
 #Functional configuration.
 echo -e "55500" > /etc/container_environment/RMSCONF_MEDIA_LOW_PORT
