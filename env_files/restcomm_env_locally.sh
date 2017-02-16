@@ -12,7 +12,7 @@ echo -e "AUTH" > /etc/container_environment/RCADVCONF_SECURESSL
 echo -e "allowall" > /etc/container_environment/RCADVCONF_SSL_MODE
 echo -e "Wp770521" > /etc/container_environment/RCADVCONF_TRUSTSTORE_PASSWORD
 echo -e "restcomm" > /etc/container_environment/RCADVCONF_TRUSTSTORE_ALIAS
-echo -e "/var/cert/restcomm-combined.jks" /etc/container_environment/RCADVCONF_TRUSTSTORE_FILE
+echo -e "/var/cert/restcomm.jks" /etc/container_environment/RCADVCONF_TRUSTSTORE_FILE
 
 #RestComm Port configuration
 echo -e "5080" > /etc/container_environment/RCBCONF_SIP_PORT_UDP
