@@ -15,11 +15,11 @@ echo -e "restcomm" > /etc/container_environment/RCADVCONF_TRUSTSTORE_ALIAS
 echo -e "restcomm-combined.jks" /etc/container_environment/RCADVCONF_TRUSTSTORE_FILE
 
 #RestComm Port configuration
-echo -e "5060" > /etc/container_environment/RCBCONF_SIP_PORT_UDP
-echo -e "5060" > /etc/container_environment/RCBCONF_SIP_PORT_TCP
-echo -e "5061" > /etc/container_environment/RCBCONF_SIP_PORT_TLS
-echo -e "5062" > /etc/container_environment/RCBCONF_SIP_PORT_WS
-echo -e "5063" > /etc/container_environment/RCBCONF_SIP_PORT_WSS
+echo -e "5080" > /etc/container_environment/RCBCONF_SIP_PORT_UDP
+echo -e "5080" > /etc/container_environment/RCBCONF_SIP_PORT_TCP
+echo -e "5081" > /etc/container_environment/RCBCONF_SIP_PORT_TLS
+echo -e "5082" > /etc/container_environment/RCBCONF_SIP_PORT_WS
+echo -e "5083" > /etc/container_environment/RCBCONF_SIP_PORT_WSS
 
 #Functional configuration.
 echo -e "65000" > /etc/container_environment/RMSCONF_MEDIA_LOW_PORT
