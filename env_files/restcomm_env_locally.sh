@@ -8,7 +8,7 @@ echo -e "restcomm_trace" > /etc/container_environment/EXTCONF_RESTCOMM_TRACE_LOG
 echo -e "media_server" > /etc/container_environment/EXTCONF_MEDIASERVER_LOGS_LOCATION
 
 #SSL certificate
-echo -e "AUTH" > /etc/container_environment/RCADVCONF_SECURESSL
+echo -e "SELF" > /etc/container_environment/RCADVCONF_SECURESSL
 echo -e "allowall" > /etc/container_environment/RCADVCONF_SSL_MODE
 echo -e "Wp770521" > /etc/container_environment/RCADVCONF_TRUSTSTORE_PASSWORD
 echo -e "restcomm" > /etc/container_environment/RCADVCONF_TRUSTSTORE_ALIAS
